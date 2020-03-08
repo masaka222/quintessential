@@ -1,0 +1,66 @@
+.LoginForm{
+    text-align: center;
+}
+
+.LoginForm_header{
+    color: #474EBB;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 8rem;
+
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+input[type=text], input[type=password]{
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.035em;
+    text-align: center;
+    border: 2px solid #B8B8B8;
+    border-radius: .8rem;
+    color: var(--color-dark-gray);
+    width: 100%;
+    padding: 1.6rem 9rem;
+    margin: .7rem 0 4rem 0;
+    box-sizing: border-box;
+
+    /* To hide default styling */
+    -webkit-appearance: none;  
+    -moz-appearance:    none;
+    appearance:         none;
+    outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    color: #474EBB;
+    border-color: #474EBB;
+  }
+
+.LoginForm_button{
+    border: none;
+    border-radius: .8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.035em;
+    padding: 1.3rem 8rem;
+    background-color: #04347F;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    color: white;
+
+    transition: all 0.2s linear 0s;
+}
+
+.LoginForm_button:hover{
+    background-color: #072C5E;
+    cursor: pointer;
+}
+
+.LoginForm_forgotPass{
+    color: #000000;
+    font-size: 1.6rem;
+    text-decoration: none;
+}

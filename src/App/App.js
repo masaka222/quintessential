@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import MainImage from '../MainImage/MainImage';
-import MainLoginForm from '../MainLoginForm/MainLoginForm';
+import ImageSection from '../ImageSection/ImageSection';
+import LoginSection from '../LoginSection/LoginSection';
 
 function App() {
   return (
     <div className="App">
-      <MainImage/>
-      <MainLoginForm/>
+      <ImageSection/>
+      <LoginSection/>
     </div>
   );
 }
