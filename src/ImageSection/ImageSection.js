@@ -5,7 +5,7 @@ import image from './Group 2.png';
 function ImageSection() {
   return (
     <div className="ImageSection">
-      <img alt="image" className='ImageSection_image' src={image}/>
+      <img alt="mainimage" className='ImageSection_image' src={image}/>
     </div>
   );
 }

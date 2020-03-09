@@ -1,0 +1,28 @@
+.Sidebar{
+    border-right: .2rem solid #DADADA;
+}
+
+.Sidebar_menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.shape{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 4rem;
+    
+    transition: all .3s cubic-bezier(0,0,0,.5);
+}
+
+.is-active .shape{
+    background-color: #072C5E;
+}
+
+.shape:hover{
+    background-color: #072C5E;
+    cursor: pointer;
+}

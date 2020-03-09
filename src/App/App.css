@@ -22,11 +22,5 @@
     font-size: 62.5%; /* So that 1rem = 10px (10px/16px (browsers default) = 62.5% -> 1rem = 10px */
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
   }
-  
-.App {
-    height: 100%;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 45% auto;
-}
+
 
