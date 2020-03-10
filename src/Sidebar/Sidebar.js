@@ -1,71 +1,76 @@
 import React from 'react';
-import './Sidebar.css';
 import { NavLink } from 'react-router-dom';
+
+import './Sidebar.css';
+
 import logo from './logo.png';
 import menuIcon from './menuIcon.jpg';
-import homeIcon from './homeIcon.png';
-import icon1 from './icon1.png';
-import icon2 from './icon2.png';
-import icon3 from './icon3.png';
-import icon4 from './icon4.png';
-import kataxwrish from './kataxwrish.png';
+import settingsIcon from './settingsIcon.png';
+
+import SVGIcon from "./SVGIcon";
+
 
 
 function Sidebar() {
   return (
     <div className="Sidebar">
-      <img alt="logo" className='Sidebar_image' src={logo}/>
+      <img alt="logo" className='Sidebar_logo' src={logo}/>
       <div className='Sidebar_menu'>
-        <img alt="menuIcon" src={menuIcon}/>
-        <p>ΜΕΝΟΥ ΕΠΙΛΟΓΩΝ</p>
+        <img alt="menuIcon" src={menuIcon} className='menuIcon'/>
+        <div className='menuText'>ΜΕΝΟΥ ΕΠΙΛΟΓΩΝ</div>
       </div>
 
-          <NavLink activeClassName = 'is-active' to='/home'>
+          <NavLink activeClassName = 'is-active' to='/management/home'>
             <figure className='shape'>
-              <img alt="homeIcon" src={homeIcon}/>
-              <div> Κεντρική σελίδα </div>
+              <SVGIcon className='Sidebar_icon' name="home" width={22} fill={'#474EBB'} />
+              <div className='Sidebar_text'> Κεντρική σελίδα </div>
             </figure>
           </NavLink>
         
-          <NavLink activeClassName = 'is-active' to='/warehouse1'>
+          <NavLink activeClassName = 'is-active' to='/management/warehouse1'>
             <figure className='shape'>
-              <img alt="icon1" src={icon1}/>
-              <div> Αποθήκη 1 </div>
+              <SVGIcon className='Sidebar_icon' name="one" width={18} />
+              <div className='Sidebar_text'> Αποθήκη 1 </div>
             </figure>
           </NavLink>
         
-          <NavLink activeClassName = 'is-active' to='/warehouse2'>
+          <NavLink activeClassName = 'is-active' to='/management/warehouse2'>
             <figure className='shape'>
-              <img alt="icon2" src={icon2}/>
-              <div> Αποθήκη 2 </div>
+              <SVGIcon className='Sidebar_icon' name="two" width={18} />
+              <div className='Sidebar_text'> Αποθήκη 2 </div>
           </figure>
           </NavLink>
         
-          <NavLink activeClassName = 'is-active' to='/warehouse3'>
-          <figure className='shape'>
-            <img alt="icon3" src={icon3}/>
-            <div> Αποθήκη 3 </div>
-          </figure>
+          <NavLink activeClassName = 'is-active' to='/management/warehouse3'>
+            <figure className='shape'>
+              <SVGIcon className='Sidebar_icon' name="three" width={18} />
+              <div className='Sidebar_text'> Αποθήκη 3 </div>
+            </figure>
           </NavLink>
         
-          <NavLink activeClassName = 'is-active' to='/warehouse4'>
-          <figure className='shape'>
-            <img alt="icon4" src={icon4}/>
-            <div> Αποθήκη 4 </div>
-          </figure>
+          <NavLink activeClassName = 'is-active' to='/management/warehouse4'>
+            <figure className='shape'>
+              <SVGIcon className='Sidebar_icon' name="four" width={19} />
+              <div className='Sidebar_text'> Αποθήκη 4 </div>
+            </figure>
           </NavLink>
 
       
       <div className='Sidebar_menu'>
-        <img alt="menuIcon" src={menuIcon}/>
-        <p>ΚΑΤΑΧΩΡΙΣΗ ΥΛΙΚΩΝ ΚΑΙ ΚΩΔΙΚΩΝ</p>
+        <img alt="menuIcon" src={menuIcon} className='menuIcon'/>
+        <div className='menuText'>ΚΑΤΑΧΩΡΙΣΗ ΥΛΙΚΩΝ ΚΑΙ ΚΩΔΙΚΩΝ</div>
       </div>
       <NavLink activeClassName = 'is-active' to='/insert'>
-            <figure className='shape'>
-              <img alt="kataxwrish" src={kataxwrish}/>
-              <div> Καταχώριση </div>
-            </figure>
+        <figure className='shape'>
+          <SVGIcon className='Sidebar_icon' name="dots" width={18} />
+          <div className='Sidebar_text'> Καταχώριση </div>
+        </figure>
       </NavLink>
+
+      <div className='Sidebar_settings'>
+        <img alt="settingsIcon" src={settingsIcon} className='menuIcon'/>
+        <div className='menuText'>ΡΥΘΜΙΣΕΙΣ</div>
+      </div>
     </div>
   );
 }

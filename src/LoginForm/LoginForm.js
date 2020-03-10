@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 class LoginForm extends React.Component {
 
   redirect = () => {
-    this.props.history.push('./management');
+    this.props.history.push('./management/home');
   }
 
   render() {

@@ -15,11 +15,11 @@ function ManagementPage() {
         <BrowserRouter>
             <Sidebar/>
             <Switch>
-                <Route path='/home' component = {Home}/>
-                <Route path='/warehouse1' component = {Warehouse1}/>
-                <Route path='/warehouse2' component = {Warehouse2}/>
-                <Route path='/warehouse3' component = {Warehouse3}/>
-                <Route path='/warehouse4' component = {Warehouse4}/>
+                <Route path='/management/home' component = {Home}/>
+                <Route path='/management/warehouse1' component = {Warehouse1}/>
+                <Route path='/management/warehouse2' component = {Warehouse2}/>
+                <Route path='/management/warehouse3' component = {Warehouse3}/>
+                <Route path='/management/warehouse4' component = {Warehouse4}/>
             </Switch>
         </BrowserRouter>
     </div>
