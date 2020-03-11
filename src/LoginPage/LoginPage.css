@@ -1,6 +1,17 @@
 .LoginPage{
-    height: 100%;
     width: 100vw;
     display: grid;
     grid-template-columns: 45% auto;
+}
+
+@media only screen and (max-width: 1145px){
+    .LoginPage{
+        grid-template-columns: 55% auto;
+    }
+}
+
+@media only screen and (max-width: 786px){
+    .LoginPage{
+        grid-template-columns: 100% auto;
+    }
 }

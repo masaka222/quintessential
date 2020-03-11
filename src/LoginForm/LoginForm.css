@@ -1,5 +1,6 @@
 .LoginForm{
     text-align: center;
+    z-index: 1;
 }
 
 .LoginForm_header{
@@ -7,6 +8,7 @@
     font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 8rem;
+    margin-top: 6rem;
 
     letter-spacing: 0.4rem;
     text-transform: uppercase;
@@ -63,4 +65,55 @@
     color: #000000;
     font-size: 1.6rem;
     text-decoration: none;
+}
+
+@media only screen and (max-height: 600px){
+    .LoginForm_header{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .email-input, .password-input{
+        font-size: 1.3rem;
+        letter-spacing: normal;
+        margin: .7rem 0 2rem 0;
+        width: 90%;
+    }
+
+    .LoginForm_button{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+        padding: 1.3rem 6rem;
+    }
+
+    .LoginForm_forgotPass{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-height: 423px){
+    .LoginForm_header{
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+    }
+
+    .email-input, .password-input{
+        font-size: 1rem;
+        margin: .2rem 0 1rem 0;
+        padding: 1rem 6rem;
+    }
+
+    .LoginForm_button{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        padding: 1rem 3rem;
+    }
+
+    .LoginForm_forgotPass{
+        font-size: 1rem;
+    }
 }

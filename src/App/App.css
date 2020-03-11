@@ -1,12 +1,4 @@
-:root{
-    --color-blue:  #1b68b3;
-    --color-hover-user-background:  #e8e8e8;
-    --color-input-border:  #ececec;
-    --color-cancel-button-background:  #f7f7f7;
-    --color-black: #212529;
-    --color-dark-gray: #4E555C;
-  }
-  
+
   * {
     margin: 0;
     padding: 0;
@@ -21,6 +13,8 @@
     box-sizing: border-box;
     font-size: 62.5%; /* So that 1rem = 10px (10px/16px (browsers default) = 62.5% -> 1rem = 10px */
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+    height: 100%;
+    overflow: hidden;
   }
 
   @font-face {
