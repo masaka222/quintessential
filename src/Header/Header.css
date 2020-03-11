@@ -1,0 +1,16 @@
+.Header{
+    height: 8.8rem;
+    padding-top: 1.5rem;
+    border-bottom: .2rem solid #DADADA;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header_title{
+    margin-left: 2.8rem;
+    font-family: SF Pro Display;
+    font-size: 2rem;
+    line-height: 25px;
+}

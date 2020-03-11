@@ -1,3 +1,4 @@
-.Home{
-    background-color: red;
+.Home_buttons{
+    display: flex;
+    justify-content: space-evenly;
 }

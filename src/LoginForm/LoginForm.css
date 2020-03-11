@@ -12,7 +12,7 @@
     text-transform: uppercase;
 }
 
-input[type=text], input[type=password]{
+.email-input, .password-input{
     font-weight: 600;
     font-size: 1.8rem;
     letter-spacing: 0.035em;
@@ -32,8 +32,8 @@ input[type=text], input[type=password]{
     outline: none;
 }
 
-input[type=text]:focus,
-input[type=password]:focus{
+.email-input:focus,
+.password-input:focus{
     color: #474EBB;
     border-color: #474EBB;
   }

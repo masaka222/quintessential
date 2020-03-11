@@ -60,6 +60,7 @@ function Sidebar() {
         <img alt="menuIcon" src={menuIcon} className='menuIcon'/>
         <div className='menuText'>ΚΑΤΑΧΩΡΙΣΗ ΥΛΙΚΩΝ ΚΑΙ ΚΩΔΙΚΩΝ</div>
       </div>
+      
       <NavLink activeClassName = 'is-active' to='/insert'>
         <figure className='shape'>
           <SVGIcon className='Sidebar_icon' name="dots" width={18} />

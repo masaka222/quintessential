@@ -1,5 +1,5 @@
 .Sidebar{
-    border-right: .3rem solid #DADADA;
+    border-right: .2rem solid #DADADA;
     position: relative;
 }
 
@@ -16,7 +16,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    border-top: .3rem solid rgba(0, 0, 0, 0.07);
+    border-top: .5rem solid rgba(0, 0, 0, 0.07);
     padding-top: 1.9rem;
 }
 

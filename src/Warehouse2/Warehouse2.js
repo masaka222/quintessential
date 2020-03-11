@@ -1,10 +1,11 @@
 import React from 'react';
 import './Warehouse2.css';
+import Header from '../Header/Header';
 
 function Warehouse2() {
   return (
     <div className="Warehouse2">
-      this is the Warehouse2 part
+      <Header title='Αποθήκη 2'/>
     </div>
   );
 }

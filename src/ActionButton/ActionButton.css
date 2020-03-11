@@ -1,0 +1,53 @@
+.ActionButton_button{
+    position: relative;
+    margin-top: 13rem;
+    padding: 1.5rem 3.3rem;
+    width: 23rem;
+    text-align: start;
+    background: #FDFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.ActionButton_button-title{
+    font-family: SF Pro Display;
+    font-size: 15px;
+    margin-bottom: .5rem;
+}
+
+.ActionButton_button-subtitle{
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000;
+    opacity: 0.34;
+}
+
+.ActionButton_button::before{
+    content: "";
+    position: absolute;  
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+    right: 18rem;
+    top: -3.5rem;
+
+    z-index: -1;
+}
+
+/* Circle Colors */
+
+.pinkColor::before{
+    border: 1.4rem solid #C2566D;  
+}
+
+.yellowColor::before{
+    border: 1.4rem solid #F0C17D;  
+}
+
+.greenColor::before{
+    border: 1.4rem solid #2BC3A7;  
+}
