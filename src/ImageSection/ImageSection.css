@@ -6,10 +6,6 @@
     background-size: cover;
 }
 
-.ImageSection_image{
-    height: 100vh;   
-}
-
 @media only screen and (max-width: 786px){
     .ImageSection{
         opacity: 0.3;

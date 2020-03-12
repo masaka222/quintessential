@@ -1,6 +1,6 @@
 .Sidebar{
     border-right: .2rem solid #DADADA;
-    position: relative;
+    overflow-y: scroll;
 }
 
 .Sidebar_menu,
@@ -8,17 +8,21 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 5rem 0 1.7rem 0;
+    padding: 5rem 0 1.7rem 0;
 }
 
 .Sidebar_settings{
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 22.3rem;
     border-top: .5rem solid rgba(0, 0, 0, 0.07);
     padding-top: 1.9rem;
+    background-color: white;
 }
+
+#lastOption {
+    margin-bottom: 6rem;
+} 
 
 .Sidebar_logo{
     margin: 4rem 0 5.4rem 2rem;

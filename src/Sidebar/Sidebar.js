@@ -61,8 +61,8 @@ function Sidebar() {
         <div className='menuText'>ΚΑΤΑΧΩΡΙΣΗ ΥΛΙΚΩΝ ΚΑΙ ΚΩΔΙΚΩΝ</div>
       </div>
       
-      <NavLink activeClassName = 'is-active' to='/insert'>
-        <figure className='shape'>
+      <NavLink activeClassName = 'is-active' to='/management/entry'>
+        <figure className='shape' id='lastOption'>
           <SVGIcon className='Sidebar_icon' name="dots" width={18} />
           <div className='Sidebar_text'> Καταχώριση </div>
         </figure>
