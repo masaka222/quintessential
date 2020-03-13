@@ -1,5 +1,6 @@
 .Home{
     overflow-y: scroll;
+    padding-bottom: 2rem;
 }
 
 .Home_buttons{
