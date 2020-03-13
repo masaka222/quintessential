@@ -14,3 +14,29 @@
     font-size: 2rem;
     line-height: 25px;
 }
+
+@media only screen and (max-width: 939px){
+    .Header{
+        height: 10rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .Header_title{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .Header{
+        padding-top: 0rem;
+        height: 8rem;
+    }
+    
+    .Header_title{
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+}

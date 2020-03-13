@@ -79,3 +79,91 @@
 .is-active .Sidebar_icon{
     filter: brightness(0) invert(1);
 }
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 568px){
+    .Sidebar_logo{
+        margin: 4rem 0 1rem 2rem;
+        width: 80%;
+    }
+
+    .Sidebar_text{
+        font-size: 1rem;    
+    }
+
+    .shape{
+        height: 3.5rem;
+    }
+
+    .Sidebar_menu,
+    .Sidebar_settings{
+        padding: 4rem 0 1.5rem 0;
+    }
+
+    .Sidebar_settings{
+        width: 14.8rem;
+        padding-top: 1rem;
+    }
+
+    .Sidebar_icon{
+        margin: 0 1.5rem 0 2.2rem;
+        width: 10%;
+    }
+
+    .menuIcon{
+        width: 9%;
+    }
+
+    .menuText{
+        font-size: .5rem;
+    }
+
+    #lastOption {
+        margin-bottom: 5rem;
+    } 
+}
+
+@media only screen and (max-width: 390px){
+    .Sidebar_logo{
+        margin: 4rem 0 1rem 1rem;
+        width: 90%;
+    }
+
+    .Sidebar_text{
+        font-size: .1rem;    
+    }
+
+    .shape{
+        height: 3rem;
+    }
+
+    .Sidebar_menu,
+    .Sidebar_settings{
+        padding: 4rem 0 1.5rem 0;
+    }
+
+    .Sidebar_settings{
+        width: 8.8rem;
+        padding-top: .5rem;
+    }
+
+    .Sidebar_icon{
+        margin: 0 1rem 0 1rem;
+        width: 15%;
+    }
+
+    .menuIcon{
+        width: 9%;
+        margin: 0 .5rem 0 1rem;
+    }
+
+    .menuText{
+        font-size: 6px;
+    }
+
+    #lastOption {
+        margin-bottom: 4rem;
+    } 
+}

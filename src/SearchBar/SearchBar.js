@@ -7,7 +7,7 @@ function SearchBar() {
     <div className="SearchBar">
       <form action="#" className="search">
         <button className="search__button">
-          <img alt='magnifyingGlass' src={magnifier}/>
+          <img alt='magnifyingGlass' className='magnifyingGlass' src={magnifier}/>
         </button>
         <input type="text" className="search__input" placeholder="Αναζήτηση υλικού, έλεγχος αποθεμάτων" size="52"/>
       </form>
